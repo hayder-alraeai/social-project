@@ -4,6 +4,7 @@ package com.hayder.socialprojekt.controller;
 import com.hayder.socialprojekt.jwt.JwtUtils;
 import com.hayder.socialprojekt.model.ApplicationUser;
 import com.hayder.socialprojekt.service.UserService;
+import lombok.var;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.http.HttpStatus;
